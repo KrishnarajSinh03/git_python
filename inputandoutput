@@ -1,0 +1,22 @@
+a=("Hello")
+print(a)
+b=("Atmiya")
+print(b)
+a=input(("Enter your name : "))
+print("Hello",a)
+b=input(("Enter Number :"))
+print("Number is :",b)
+x=int(input("Enter value :"))
+print(x)
+y=int(input("Enter numbers :"))
+print(y)
+p=float(input("Enter percentage :"))
+print(p)
+q=float(input("Enter measure :"))
+print(q)
+a=True
+b=False
+print(a<b)
+x=9
+y=5
+print(a>b)
