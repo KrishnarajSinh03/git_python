@@ -1,0 +1,23 @@
+"""try:
+    number1=int(input("Enter A Number :"))
+    number2=int(input("Enter Another Number :"))
+    result=number1/number2
+except ZeroDivisionError:
+    print("You Cannot divide by zero")
+except ValueError:
+    print("please Enter a valid number")
+else:
+    print("division successful result is",result)
+finally:
+    print("this block always runs")
+    """
+    
+try:
+    my_list=[1,2,3]
+    print(my_list[1])
+except IndexError:
+    print("Index is out of range")
+else:
+    print("Element Found Successfully")
+finally:
+    print("Program finished")
