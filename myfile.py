@@ -1,0 +1,7 @@
+src = open("myfile.txt","r")
+data =src.read()
+src.close()
+dst=open("data.txt","w")
+dst.write(data)
+dst.close()
+print("file copied successfully")
